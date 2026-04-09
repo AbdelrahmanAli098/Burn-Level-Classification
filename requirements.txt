@@ -1,0 +1,24 @@
+# Install everything with:
+#   pip install -r requirements.txt
+#
+# For GPU support, install PyTorch separately first:
+#   e.g. pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# ============================================================
+
+# --- Core deep learning ---
+torch==2.11.0
+torchvision==0.26.0
+
+# --- Model summary utility ---
+torchsummary==1.5.1
+
+# --- Data ---
+numpy==2.4.2
+pandas==3.0.2
+scikit-learn==1.8.0
+
+# --- Image processing ---
+Pillow==12.1.1
+
+# --- Visualisation ---
+matplotlib==3.10.8
